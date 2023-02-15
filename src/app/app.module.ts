@@ -10,7 +10,7 @@ import { AlimentService } from './aliment.service';
 @NgModule({
   declarations: [AppComponent, ListAlimentComponent, AddAlimentComponent],
   imports: [BrowserModule, FormsModule],
-  providers: [AlimentService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

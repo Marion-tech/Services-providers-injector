@@ -16,4 +16,8 @@ export class ListAlimentComponent implements OnInit {
   }
 
   // public aliments: string[] = this.alimentService.aliments;
+
+  public removeAliment(index: number): void {
+    this.alimentService.removeOne(index);
+  }
 }
